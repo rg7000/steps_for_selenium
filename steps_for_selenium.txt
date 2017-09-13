@@ -1,0 +1,54 @@
+pip version and python version
+sudo dnf install python3 python3-wheel
+sudo yum|dnf upgrade python-setuptools
+sudo yum|dnf install python-pip python-wheel
+
+https://packaging.python.org/guides/installing-using-linux-tools/#installing-pip-setuptools-wheel-with-linux-package-managers
+
+create venv in which new python3 
+ conda create -n py36 python=3.6 anaconda
+ 1014  conda create -n py36 python=3.6 anaconda
+ 1015  source activate py36
+ 1016  pip install behave
+ 1017  python3
+ 1018  history
+
+
+ 1001  source activate py36
+ 1002  ls
+ 1003  cd selenium_auto/
+ 1004  ls
+ 1005  cd ..
+ 1006  mkdir sel_pypune
+ 1007  cd sel_pypune/
+ 1008  python3
+ 1009  pip -v
+ 1010  ls
+ 1011  mkdir features
+ 1012  cd features/
+ 1013  vi google.feature
+ 1014  mkdir steps
+ 1015  cd steps/
+ 1016  vi steps.py
+ 1017  cd ..
+ 1018  vi environment.py
+ 1019  tree
+ 1020  vi environment.py
+ 1021  echo $PATH
+ 1022  echo $PATH=/home/rgoyal/Downloads/geckodriver
+ 1023  cd ..
+ 1024  behave features/google.feature 
+ 1025  vi environment.py
+ 1026  cd features/
+ 1027  vi environment.py 
+ 1028  cd ..
+ 1029  behave features/google.feature 
+ 1030  pip install selenium
+ 1031  behave features/google.feature 
+ 1032  vi features/environment.py 
+ 1033  behave features/google.feature 
+ 1034  python3 
+ 1035  python
+ 1036  history
+
+
